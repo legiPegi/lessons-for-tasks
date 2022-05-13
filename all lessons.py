@@ -148,23 +148,185 @@ This is a temporary script file.
 # else:
 #     print("Barchasi bor")
 
-foydalanuvchilar = ["anvar", 'odil', 'legi', 'zorro', 'king']
-b = input("Iltimos ismingiz >> ")
-print(f"Salom {b.title()}")
-a = input("Yangi login kiriting>>> ")
-if a in foydalanuvchilar:
-    print("Uzr bu login band qilingan boshqa login tanlang ")
-else:
-    print(f"Tabriklaymiz {b.upper()}jon siz royhatdan otdingiz ")
-    print(f"Sizning yangi loginingiz {a} yodingizdan chiqarmang")
+# foydalanuvchilar = ["anvar", 'odil', 'legi', 'zorro', 'king']
+# b = input("Iltimos ismingiz >> ")
+# print(f"Salom {b.title()}")
+# a = input("Yangi login kiriting>>> ")
+# if a in foydalanuvchilar:
+#     print("Uzr bu login band qilingan boshqa login tanlang ")
+# else:
+#     print(f"Tabriklaymiz {b.upper()}jon siz royhatdan otdingiz ")
+#     print(f"Sizning yangi loginingiz {a} yodingizdan chiqarmang")
     
 
 
-            
+
+############ 1   ###########
+# print("Salom tugilgan yilingizni xisoblovchi")
+# t_yil = "Tugilgan yilingizni kiriting"
+# t_yil += "(Dasturni toxtatish uchun '1'ni bosing )>>> "
+# yil = ''
+# while yil != 1:
+#     yil = input(t_yil)
+#     yil = int(yil)
+#     if yil != 1:
+#         print(2022-yil)
+#     else:
+#         print('Dastur toxtadi')
+        
+        
+    ################## 2  #########################
+
+# print("Salom tugilgan yilingizni xisoblovchi")
+# t_yil = "Tugilgan yilingizni kiriting"
+# t_yil += "(Dasturni toxtatish uchun '1'ni bosing )>>> "
+# stop = True
+# while stop:
+#     a = input(t_yil)
+#     a = int(a)
+#     if a == 1:
+#         stop = False
+#     else:
+#         print(f"Siz {2022-a} yoshdasiz")
+# print('Dastur toxtadi')
+
+ 
+# print("Salom Hush kelibsiz !!!")
+# t_yil = "Parolni kiriting "
+# ism = input("Ismingizni kiritng>>> ")
+# print(f"Hurmatli {ism.title()} endi")
+# b = 1234
+# # stop = True
+# while True:
+#     a = input(t_yil )
+#     a = int(a)
+#     if a == b:
+#         break
+#     else:
+#         print(f"Uzr {ism.title()} parolni xato kiritdingiz qayta kiriting ")
+# print("Admin profile is activated ")
+# c = 1
+# while c <= 20:
+#     c += 1
+#     print(c * '*')    
+# input()   
+        
     
+############################################################
+# son = 0
+# while son<10:
+#     son += 1
+#     if son%2 != 0: ### agar son qoldigi yoq bolsa yani juft bolsa chiqarad
+#         continue
+#     else:
+#         print(son)
+    
+##########################################################
+
+# son = 0
+# while son<10:
+#     son += 1
+#     if son%2 == 0: ### agar son qoldigi bor bolsa yani toq bolsa chiqarad
+#         continue
+#     else:
+#         print(son)
+
+
+# a = "Yoqtirgan kitoblaringizni kiriting"
+# a += "(Agar dasturni\
+# to'xtatmoqchi bo'lsangiz 1 ni bosing)>>> "
+# while True:
+#     c = input(a)
+#     if c == '1':
+#         break
+# print("Dastur tugadi")    
+
+
+# print("Assalomu aleykum Milliy muzeyga hush kelibsiz !!!")
+# yosh = "Iltimos yoshingizni kiriting"
+# yosh += "(dasturni to'xtatish uchun 'exit' yoki 'quit' deb yozing)>> "
+# yosh = "Yosh kiriting "
+# while True:
+#     a = input(yosh)
+#     if a == 'exit' or a == 'quit': 
+#         break
+    
+#     a = int(a)
+    
+#     if a <= 7:
+#         narh = 2000
+    
+#     elif 7<a<14:
+#         narh = 8000
+    
+#     elif 14<=a<18:
+#         narh = 15000
+   
+#     elif 18<=a<50:
+#         narh = 20000
+   
+#     else:
+#         narh = 0
+    
+#     if narh == 0:
+#         print("Sizga kirish bepul")
+#     else:
+#         print(f"sizga kirish narhi{narh}so'm")
+
+#################################################
+    
+# yosh = "Yosh kiriting "
+# stop = True
+# while stop:
+#     a = input(yosh)
+#     if a == '999' or a == '555': 
+#         stop = False
+   
+#     a = int(a)
+    
+#     if a == '999' or a == '555':
+#         a = str(a)
+    
+#     if a <= 7:
+#         narh = 2000
+    
+#     elif 7<a<14:
+#         narh = 8000
+    
+#     elif 14<=a<18:
+#         narh = 15000
+   
+#     elif 18<=a<50:
+#         narh = 20000
+   
+#     else:
+#         narh = 0
+    
+#     if narh == 0:
+#         print("Sizga kirish bepul chunki sizni yoshingiz\
+#   50 dan katta ekan bizda 50 yoshdan yuqoridagilarga kirish bepul")
+#     else:
+#         print(f"sizga kirish narhi {narh}-so'm")
+# print("Dastur tugadi")
+
+a = "yosh"
+stop = True
+while stop:
+    b = input(a)
+    if b != 'exit':
+        print(b)
+        continue
+    else:
+        stop = False
+print("tugadi")        
     
 
-                       
 
-                  
-                  
+
+
+
+
+
+
+
+
